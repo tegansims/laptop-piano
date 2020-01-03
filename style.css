@@ -118,16 +118,16 @@ ul .white:active {
   background:linear-gradient(to right,#444 0%,#222 100%)
 }
 
-.a, .e, .g,.f,.d,.c, .b{
+.white {
   margin:0 0 0 -1em
 }
 
 ul li:first-child {
-  border-radius:5px 0 5px 5px
+  border-radius:5px 0 5px 5px;
 }
 
 ul li:last-child {
-  border-radius:0 5px 5px 5px
+  border-radius:0 5px 5px 5px;
 }
 
 .set {

@@ -1,6 +1,6 @@
 function playSound(event) {
-    // console.log(event.keyCode)
-    // console.log(event.target.dataset.key)
+    console.log(event.keyCode)
+    console.log(event.target.dataset.key)
 
     const audio = document.querySelector(`audio[data-key="${event.keyCode}"`) || document.querySelector(`audio[data-key="${event.target.dataset.key}"]`)
     const key = document.querySelector(`.key[data-key="${event.keyCode}"`)
